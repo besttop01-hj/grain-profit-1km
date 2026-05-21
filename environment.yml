@@ -1,0 +1,18 @@
+name: grain-profit-1km
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy>=2.0
+  - pandas>=2.3
+  - scipy>=1.16
+  - matplotlib>=3.10
+  - seaborn>=0.13
+  - scikit-learn>=1.7
+  - xgboost>=3.0
+  - shap>=0.48
+  - gdal>=3.11
+  - rasterio>=1.4
+  - pillow>=11.0
+  - pip

@@ -9,19 +9,10 @@
 │   ├── bias_correction.py            #   Multiplicative bias correction
 │   └── plot_model_comparison_scatter.py
 │
-├── 02_revenue_and_net_profit/        # Stage 4–5: Revenue + net profit
-│   ├── yield_price_revenue.py        #   EVI-based yield downscaling + main product revenue
-│   ├── byproduct_value.py            #   By-product output value
-│   └── net_profit_calibrate.py       #   Net profit = revenue − cost; additive calibration
-│
-└── 03_validation/                    # Validation and sensitivity
-    ├── nrfs_compare.py               #   Independent NRFPS household survey comparison
-    ├── evi_scatter.py                #   Province-level EVI–profit correlation
-    ├── shap_analysis.py              #   SHAP beeswarm + dependence plots
-    └── spatial_checks/
-        ├── transect_maize.py         #   Elevation transect (maize)
-        ├── transect_wheat.py         #   Elevation transect (wheat)
-        └── irrigation_boxplot.py     #   Irrigation-stratified net profit (rice)
+└── 02_revenue_and_net_profit/        # Stage 4–5: Revenue + net profit
+    ├── yield_price_revenue.py        #   EVI-based yield downscaling + main product revenue
+    ├── byproduct_value.py            #   By-product output value
+    └── net_profit_calibrate.py       #   Net profit = revenue − cost; additive calibration
 ```
 
 ## Environment

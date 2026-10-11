@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+outputs/
+data/raw/
+data/intermediate/
+*.cbm
+*.tif
+*.tiff
+*.zip
